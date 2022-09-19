@@ -62037,7 +62037,7 @@ pn(){var s=0,r=A.a5(t.H),q=this,p,o,n,m,l,k,j,i,h,g,f
 var $async$pn=A.a6(function(a,b){if(a===1)return A.a2(b,r)
 while(true)switch(s){case 0:i=A.w7("https://edesk.incluziv.cloud/EDESK/entityWSAction.do?reqCode=checkCRNNumberValidation")
 h=t.N
-g=A.au(["Content-Type","application/json; charset=UTF-8"],h,h)
+g=A.au(["Content-Type","application/json; charset=UTF-8","Access-Control-Allow-Origin","*","Access-Control-Allow-Methods","GET, POST"],h,h)
 s=2
 return A.a1(A.asO(i,B.aS.Hz(A.au(["CRN_NUMBER",q.f.a.a,"APPLICATION_TYPE","SFM"],h,h),null),g),$async$pn)
 case 2:f=b
